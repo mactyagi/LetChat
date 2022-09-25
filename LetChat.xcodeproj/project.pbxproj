@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8017C442AAE13EA114AC4464 /* Pods_LetChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0870682375F98FA902B726F /* Pods_LetChat.framework */; };
+		DAEE356028E0E73E00E0F022 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAEE355F28E0E73E00E0F022 /* GoogleService-Info.plist */; };
 		DAFA3EE328E0E45200F1433F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA3EE228E0E45200F1433F /* AppDelegate.swift */; };
 		DAFA3EE528E0E45200F1433F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA3EE428E0E45200F1433F /* SceneDelegate.swift */; };
 		DAFA3EE728E0E45200F1433F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA3EE628E0E45200F1433F /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 		7CD25359DF1BD2314D6F69F3 /* Pods-LetChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetChat.debug.xcconfig"; path = "Target Support Files/Pods-LetChat/Pods-LetChat.debug.xcconfig"; sourceTree = "<group>"; };
 		911DAC5F808DD8EAD0C383DE /* Pods-LetChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetChat.release.xcconfig"; path = "Target Support Files/Pods-LetChat/Pods-LetChat.release.xcconfig"; sourceTree = "<group>"; };
 		A0870682375F98FA902B726F /* Pods_LetChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAEE355F28E0E73E00E0F022 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DAFA3EDF28E0E45200F1433F /* LetChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFA3EE228E0E45200F1433F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAFA3EE428E0E45200F1433F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				DAFA3EEB28E0E45300F1433F /* Assets.xcassets */,
 				DAFA3EED28E0E45300F1433F /* LaunchScreen.storyboard */,
 				DAFA3EF028E0E45300F1433F /* Info.plist */,
+				DAEE355F28E0E73E00E0F022 /* GoogleService-Info.plist */,
 			);
 			path = LetChat;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAFA3EEF28E0E45300F1433F /* LaunchScreen.storyboard in Resources */,
+				DAEE356028E0E73E00E0F022 /* GoogleService-Info.plist in Resources */,
 				DAFA3EEC28E0E45300F1433F /* Assets.xcassets in Resources */,
 				DAFA3EEA28E0E45200F1433F /* Main.storyboard in Resources */,
 			);
