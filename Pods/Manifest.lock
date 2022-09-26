@@ -791,7 +791,9 @@ PODS:
     - nanopb/encode (= 2.30908.0)
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
+  - ProgressHUD (13.6)
   - PromisesObjC (2.1.0)
+  - SKPhotoBrowser (7.0.0)
 
 DEPENDENCIES:
   - Firebase/Analytics
@@ -801,6 +803,8 @@ DEPENDENCIES:
   - Firebase/Messaging
   - Firebase/Storage
   - Gallery
+  - ProgressHUD
+  - SKPhotoBrowser
 
 SPEC REPOS:
   trunk:
@@ -825,7 +829,9 @@ SPEC REPOS:
     - leveldb-library
     - Libuv-gRPC
     - nanopb
+    - ProgressHUD
     - PromisesObjC
+    - SKPhotoBrowser
 
 SPEC CHECKSUMS:
   abseil: ebe5b5529fb05d93a8bdb7951607be08b7fa71bc
@@ -849,8 +855,10 @@ SPEC CHECKSUMS:
   leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
   Libuv-gRPC: 55e51798e14ef436ad9bc45d12d43b77b49df378
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  ProgressHUD: 4bdaa0d2ddf676b23324b199f9facffb5c3a1620
   PromisesObjC: 99b6f43f9e1044bd87a95a60beff28c2c44ddb72
+  SKPhotoBrowser: 6aaa8f232752e87c7e76bace183bead0a137097d
 
-PODFILE CHECKSUM: 675c27012fc6b1b67fdae9d9352390a284decabd
+PODFILE CHECKSUM: 4f030c81ea054b7033c6bd144b96331ef3cb9300
 
 COCOAPODS: 1.11.3
