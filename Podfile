@@ -12,7 +12,7 @@ pod 'Firebase/Firestore'
 pod 'Firebase/Storage'
 pod 'Firebase/Analytics'
 pod 'Firebase/Messaging'
-#pod 'FirebaseFirestoreSwift'
+pod 'FirebaseFirestoreSwift', '> 8.15-beta'
 
 pod 'Gallery'
 #pod 'RealmSwift'

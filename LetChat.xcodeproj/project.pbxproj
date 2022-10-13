@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8017C442AAE13EA114AC4464 /* Pods_LetChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0870682375F98FA902B726F /* Pods_LetChat.framework */; };
+		2CC38EDAAA0F5D9E487E2E67 /* Pods_LetChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AF2C75888799E37CF776B2 /* Pods_LetChat.framework */; };
 		DA0850B028F81790009FDEC6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0850AF28F81790009FDEC6 /* User.swift */; };
 		DAEE356028E0E73E00E0F022 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAEE355F28E0E73E00E0F022 /* GoogleService-Info.plist */; };
 		DAFA3EE328E0E45200F1433F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA3EE228E0E45200F1433F /* AppDelegate.swift */; };
@@ -19,9 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7CD25359DF1BD2314D6F69F3 /* Pods-LetChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetChat.debug.xcconfig"; path = "Target Support Files/Pods-LetChat/Pods-LetChat.debug.xcconfig"; sourceTree = "<group>"; };
-		911DAC5F808DD8EAD0C383DE /* Pods-LetChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetChat.release.xcconfig"; path = "Target Support Files/Pods-LetChat/Pods-LetChat.release.xcconfig"; sourceTree = "<group>"; };
-		A0870682375F98FA902B726F /* Pods_LetChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B436318877EFF20750C25B /* Pods-LetChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetChat.debug.xcconfig"; path = "Target Support Files/Pods-LetChat/Pods-LetChat.debug.xcconfig"; sourceTree = "<group>"; };
+		D67E29D6BC7F19CB5F81DED1 /* Pods-LetChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetChat.release.xcconfig"; path = "Target Support Files/Pods-LetChat/Pods-LetChat.release.xcconfig"; sourceTree = "<group>"; };
+		D9AF2C75888799E37CF776B2 /* Pods_LetChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA0850AF28F81790009FDEC6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DAEE355F28E0E73E00E0F022 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DAFA3EDF28E0E45200F1433F /* LetChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8017C442AAE13EA114AC4464 /* Pods_LetChat.framework in Frameworks */,
+				2CC38EDAAA0F5D9E487E2E67 /* Pods_LetChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,16 +49,16 @@
 		09A23E60B176D87768415553 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7CD25359DF1BD2314D6F69F3 /* Pods-LetChat.debug.xcconfig */,
-				911DAC5F808DD8EAD0C383DE /* Pods-LetChat.release.xcconfig */,
+				D2B436318877EFF20750C25B /* Pods-LetChat.debug.xcconfig */,
+				D67E29D6BC7F19CB5F81DED1 /* Pods-LetChat.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		411FE85827C25A6EC82DD5BF /* Frameworks */ = {
+		B17FEE941F0734000C14AD63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A0870682375F98FA902B726F /* Pods_LetChat.framework */,
+				D9AF2C75888799E37CF776B2 /* Pods_LetChat.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -77,7 +77,7 @@
 				DAFA3EE128E0E45200F1433F /* LetChat */,
 				DAFA3EE028E0E45200F1433F /* Products */,
 				09A23E60B176D87768415553 /* Pods */,
-				411FE85827C25A6EC82DD5BF /* Frameworks */,
+				B17FEE941F0734000C14AD63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,11 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAFA3EF328E0E45300F1433F /* Build configuration list for PBXNativeTarget "LetChat" */;
 			buildPhases = (
-				065CD9EA244ED98E989A18E7 /* [CP] Check Pods Manifest.lock */,
+				3839DC3298B7D4C27A2C4534 /* [CP] Check Pods Manifest.lock */,
 				DAFA3EDB28E0E45200F1433F /* Sources */,
 				DAFA3EDC28E0E45200F1433F /* Frameworks */,
 				DAFA3EDD28E0E45200F1433F /* Resources */,
-				274D8FDB4B1486C43BDF849E /* [CP] Embed Pods Frameworks */,
+				3231AAA1E5B43DEFF37EA1BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,7 +175,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		065CD9EA244ED98E989A18E7 /* [CP] Check Pods Manifest.lock */ = {
+		3231AAA1E5B43DEFF37EA1BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LetChat/Pods-LetChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LetChat/Pods-LetChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LetChat/Pods-LetChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3839DC3298B7D4C27A2C4534 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -195,23 +212,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		274D8FDB4B1486C43BDF849E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LetChat/Pods-LetChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LetChat/Pods-LetChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LetChat/Pods-LetChat-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -366,7 +366,7 @@
 		};
 		DAFA3EF428E0E45300F1433F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CD25359DF1BD2314D6F69F3 /* Pods-LetChat.debug.xcconfig */;
+			baseConfigurationReference = D2B436318877EFF20750C25B /* Pods-LetChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -397,7 +397,7 @@
 		};
 		DAFA3EF528E0E45300F1433F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 911DAC5F808DD8EAD0C383DE /* Pods-LetChat.release.xcconfig */;
+			baseConfigurationReference = D67E29D6BC7F19CB5F81DED1 /* Pods-LetChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
