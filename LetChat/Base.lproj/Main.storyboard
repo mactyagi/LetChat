@@ -29,8 +29,11 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Nhn-XZ-vJA">
                                 <rect key="frame" x="16" y="135" width="343" height="206.33333333333337"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tRe-MO-jRu">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tRe-MO-jRu">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="27.333333333333332"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="27.333333333333332" id="7Gq-Sm-NCA"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -47,8 +50,11 @@
                                             <constraint firstAttribute="height" constant="2" id="rcb-Z2-BTL"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pFi-R6-VhP">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pFi-R6-VhP">
                                         <rect key="frame" x="0.0" y="72" width="343" height="27.333333333333329"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="27.333333333333329" id="j3t-ON-QPd"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                         <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -65,8 +71,11 @@
                                             <constraint firstAttribute="height" constant="2" id="Egc-iV-8pb"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="78m-jY-vGP">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="78m-jY-vGP">
                                         <rect key="frame" x="0.0" y="142.33333333333331" width="343" height="27.333333333333343"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="27.333333333333343" id="4wh-4B-ddc"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                         <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -91,18 +100,27 @@
                                 <state key="normal" title="Forgot Password?">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="forgotPasswordButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TO4-1b-Tls"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lfy-jo-WSy">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lfy-jo-WSy">
                                 <rect key="frame" x="267" y="361.33333333333331" width="92" height="30"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Resend Email">
                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="resendEmailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n7Z-Wz-q9X"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZP-QY-UC6">
                                 <rect key="frame" x="40.666666666666657" y="411.33333333333331" width="294" height="62"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="loginBtn"/>
+                                <connections>
+                                    <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fwP-4G-Rrn"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="yiR-UN-QDd">
                                 <rect key="frame" x="72.333333333333329" y="748" width="230.33333333333337" height="30"/>
@@ -117,6 +135,9 @@
                                         <rect key="frame" x="178.33333333333331" y="0.0" width="52" height="30"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Sign up"/>
+                                        <connections>
+                                            <action selector="signupButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rcu-UO-4mn"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -140,6 +161,20 @@
                             <constraint firstItem="Nhn-XZ-vJA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="lVS-FS-3jn"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailLabel" destination="tRe-MO-jRu" id="JSN-Gy-5QU"/>
+                        <outlet property="emailTextField" destination="Q8O-bh-WLM" id="2cG-Q2-fJp"/>
+                        <outlet property="forgotPasswordButton" destination="Bjq-5h-S0p" id="6W3-RZ-Fcr"/>
+                        <outlet property="loginButton" destination="bZP-QY-UC6" id="sYL-c7-k8O"/>
+                        <outlet property="passwordLabel" destination="pFi-R6-VhP" id="brv-ar-heC"/>
+                        <outlet property="passwordTextfield" destination="Kw0-a1-IP6" id="sog-On-24X"/>
+                        <outlet property="repeatPasswordLabel" destination="78m-jY-vGP" id="KPD-H1-5kE"/>
+                        <outlet property="repeatPasswordLineView" destination="w67-5N-JIe" id="M2r-BD-yN9"/>
+                        <outlet property="repeatPasswordTextfield" destination="gJd-Qv-DUx" id="IEd-aH-4Ii"/>
+                        <outlet property="resendPasswordButton" destination="Lfy-jo-WSy" id="T0m-aM-GEW"/>
+                        <outlet property="signupButton" destination="7hu-aL-aWp" id="1RM-cN-3lx"/>
+                        <outlet property="signupLabel" destination="h7J-m3-Zaa" id="WPb-YF-dYB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
